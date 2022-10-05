@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --canvasWidth: 600px;
+    --canvasHeight: 400px;
+    --brown: #333;
+}
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+canvas {
+    width: var(--canvasWidth);
+    height: var(--canvasHeight);
+    /*border: 2px solid var(--brown)*/
+}
