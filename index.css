@@ -16,7 +16,7 @@
     width: 100%;
 }
 canvas {
-    width: var(--canvasWidth);
-    height: var(--canvasHeight);
-    /*border: 2px solid var(--brown)*/
+    /*width: var(--canvasWidth);*/
+    /*height: var(--canvasHeight);*/
+    /*border: 1px solid var(--brown);*/
 }

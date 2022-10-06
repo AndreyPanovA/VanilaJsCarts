@@ -1,5 +1,5 @@
-const HEIGHT = 600
-const WIDTH = 400
+const HEIGHT = 400
+const WIDTH = 600
 const DPI_WIDTH = WIDTH * 2
 const DPI_HEIGHT = HEIGHT * 2
 const data = [
