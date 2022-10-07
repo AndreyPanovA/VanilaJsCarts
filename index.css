@@ -18,5 +18,5 @@
 canvas {
     /*width: var(--canvasWidth);*/
     /*height: var(--canvasHeight);*/
-    /*border: 1px solid var(--brown);*/
+    border: 1px dashed var(--brown);
 }
