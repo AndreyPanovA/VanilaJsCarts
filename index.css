@@ -18,5 +18,19 @@
 canvas {
     /*width: var(--canvasWidth);*/
     /*height: var(--canvasHeight);*/
+    transition: 50ms ease;
     border: 1px dashed var(--brown);
+    cursor: pointer;
+}
+.chart {
+    position: relative;
+}
+.tooltip {
+    position: absolute;
+    background-color: rgba(0,0, 0,0.5);
+    color:white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 50ms ease;
 }
